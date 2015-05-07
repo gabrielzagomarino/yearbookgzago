@@ -1,0 +1,237 @@
+@charset "utf-8";
+
+.box-perfil {
+	width: 100%;
+	display: inline-block;
+	background-color: #FFF;
+	border: 1px solid #EEEEEE;
+    box-shadow: 0 0 7px #E1E1E1 inset;
+}
+
+
+/*##### BOTAO DELETAR #####*/
+
+button.button-del {
+    overflow: visible;
+    width: auto;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    height: 35px;
+    background: #888888;
+}
+
+button.button-del span {
+    height: 16px;
+    line-height: 16px;
+	padding: 6px 12px 6px 35px;
+    text-align: center;
+    text-decoration: none;
+    font: 1.07em/1.2 'Open Sans',Arial,Helvetica,sans-serif;
+	background: url(../imagens/icon-delete.png);
+	background-position-y: 3px;
+	background-position-x: 8px;
+	background-repeat: no-repeat;	
+	color: #FFF;	
+}
+
+button.button-del a{
+    color: #fff;
+}
+
+button.button-del span span {
+    background-position: 100% 25px;
+    padding: 0;
+}
+
+button.button-del:hover span {
+	background: url(../imagens/icon-delete.png) #222222;
+	background-position-y: 3px;
+	background-position-x: 8px;
+	background-repeat: no-repeat;
+	height: 35px;	
+}
+
+button.button-del:hover span span {
+    background-position: 100% 25px;
+    padding: 0;
+}
+
+/*##### FIM -- BOTAO DELETAR #####*/
+
+
+
+/*##### BOTAO EDITAR #####*/
+
+button.button {
+    overflow: visible;
+    width: auto;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    height: 28px;
+    background: #888888;
+	height: 35px;
+}
+
+button.button span {
+    height: 16px;
+    line-height: 16px;
+	padding: 6px 12px 6px 35px;
+    text-align: center;
+    text-decoration: none;
+    font: 1.07em/1.2 'Open Sans',Arial,Helvetica,sans-serif;
+	background: url(../imagens/icon-edit.png);
+	background-position-y: 3px;
+	background-position-x: 8px;
+	background-repeat: no-repeat;
+	color: #FFF;	
+}
+
+button.button a{
+    color: #fff;
+}
+
+button.button span span {
+    background-position: 100% 25px;
+    padding: 0;
+}
+
+button.button:hover span {
+	background: url(../imagens/icon-edit.png) #222222;
+	background-position-y: 3px;
+	background-position-x: 8px;
+	background-repeat: no-repeat;	
+}
+
+button.button:hover span span {
+    background-position: 100% 25px;
+    padding: 0;
+	height: 35px;
+}
+
+/*##### FIM -- BOTAO EDITAR #####*/
+
+
+/*##### BOTAO SALVAR #####*/
+
+button.button-save {
+    overflow: visible;
+    width: auto;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    height: 28px;
+    background: #888888;
+	height: 35px;
+}
+
+button.button-save span {
+    height: 16px;
+    line-height: 16px;
+	padding: 6px 12px 6px 35px;
+    text-align: center;
+    text-decoration: none;
+    font: 1.07em/1.2 'Open Sans',Arial,Helvetica,sans-serif;
+	background: url(../imagens/icon-save.png);
+	background-position-y: 3px;
+	background-position-x: 8px;
+	background-repeat: no-repeat;	
+	color: #FFF;
+}
+
+button.button-save a{
+    color: #fff;
+}
+
+button.button-save span span {
+    background-position: 100% 25px;
+    padding: 0;
+}
+
+button.button-save:hover span {
+	background: url(../imagens/icon-save.png) #222222;
+	background-position-y: 3px;
+	background-position-x: 8px;
+	background-repeat: no-repeat;	
+}
+
+button.button-save:hover span span {
+    background-position: 100% 25px;
+    padding: 0;
+	height: 35px;
+}
+
+/*##### FIM -- BOTAO SALVAR #####*/
+
+
+.btn-alinha {
+	position: relative;
+	text-align: right;
+    margin: 25px;
+}
+
+.box-img {
+	float: left;
+	margin-top: 10px;
+}
+
+.box-img p {
+	margin-left: 12px;
+	font-size: 12px;
+}
+
+.box-desc {
+	float: left;
+	margin-left: 10px;
+}
+
+.box-desc p {
+	line-height: 25px;
+	padding: 0 25px 0 0;
+    text-align: justify;
+    color: #3b5998;
+}
+
+.edit-ft{
+	font-size: 11px;	
+}
+
+.box-desc p a{
+    color: #3b5998;
+}
+
+.box-desc p a:hover{
+    text-decoration: underline;
+}
+
+p.nm-perfil {
+	font-size: 26px;
+    font-weight: bold;
+    color: #2f2f2f;
+}
+
+span.dest {
+	font-weight: bold;
+    color: #6a7480;
+	float: left;
+}
+
+.box-img figure {
+	margin: 0;
+	padding: 0;
+	box-shadow: none;
+	border: none;
+    background: none;
+}
+
+figure > img {
+	padding: 10px 10px 5px 10px;
+}
+
+footer {
+	width: 100%;
+}

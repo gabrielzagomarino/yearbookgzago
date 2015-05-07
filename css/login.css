@@ -1,0 +1,345 @@
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	padding-top:30px;
+	font:11px "Lucida Grande", Verdana, Arial, "Bitstream Vera Sans", sans-serif;
+	background:url(../imagens/bg-login.jpg) no-repeat top center;
+}
+form {
+	margin-left:8px;
+	padding:16px 16px 40px 16px;
+	font-weight:normal;
+	-moz-border-radius:11px;
+	-khtml-border-radius:11px;
+	-webkit-border-radius:11px;
+	border-radius:11px;
+	background:#fff;
+	border:1px solid #e5e5e5;
+	-moz-box-shadow:rgba(200, 200, 200, 1) 0 4px 18px;
+	-webkit-box-shadow:rgba(200, 200, 200, 1) 0 4px 18px;
+	-khtml-box-shadow:rgba(200, 200, 200, 1) 0 4px 18px;
+	box-shadow:rgba(200, 200, 200, 1) 0 4px 18px;
+}
+form .forgetmenot {
+	font-weight:normal;
+	float:left;
+	margin-bottom:0;
+}
+.button-primary {
+	font-family:"Lucida Grande", Verdana, Arial, "Bitstream Vera Sans", sans-serif;
+	padding:3px 10px;
+	border:none;
+	font-size:12px;
+	border-width:1px;
+	border-style:solid;
+	-moz-border-radius:11px;
+	-khtml-border-radius:11px;
+	-webkit-border-radius:11px;
+	border-radius:11px;
+	cursor:pointer;
+	text-decoration:none;
+	margin-top:-3px;
+}
+
+figure{
+	display: initial;
+}
+
+#div-login form p {
+	margin-bottom:0;
+}
+
+#cadastro form p {
+	margin-bottom:0;
+}
+
+label {
+	color:#777;
+	font-size:13px;
+}
+form .forgetmenot label {
+	font-size:11px;
+	line-height:19px;
+}
+form .submit, .alignright {
+	float:right;
+}
+form p {
+	margin-bottom:24px;
+}
+h1 a {
+	width:326px;
+	height:67px;
+	text-indent:-9999px;
+	overflow:hidden;
+	padding-bottom:15px;
+	display:block;
+}
+
+#nav {
+	text-shadow:rgba(255, 255, 255, 1) 0 1px 0;
+}
+#backtoblog {
+	position:absolute;
+	top:0;
+	left:0;
+	border-bottom:#c6c6c6 1px solid;
+	background:#d9d9d9;
+	background:-moz-linear-gradient(bottom, #d7d7d7, #e4e4e4);
+	background:-webkit-gradient(linear, left bottom, left top, from(#d7d7d7), to(#e4e4e4));
+	height:30px;
+	width:100%;
+}
+#backtoblog a {
+	text-decoration:none;
+	display:block;
+	padding:8px 0 0 15px;
+}
+
+#div-login {
+	width:320px;
+	margin:7em auto;
+}
+
+#cadastro {
+	width:500px;
+	margin:7em auto;
+}
+
+#div-login h1{
+    height: 40px;
+    color: #232426;
+    font: 2.5em/1 'Spinnaker', sans-serif;
+	margin-left: 7px;
+}
+
+#cadastro h1{
+    height: 40px;
+    color: #232426;
+    font: 2.5em/1 'Spinnaker', sans-serif;
+	margin-left: 7px;
+}
+
+#loading{
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;	
+}
+
+.header h2{
+	font-family: 'Special Elite', cursive;
+    height: 40px;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;	
+}
+
+.h {
+	position: relative;
+	max-width: 1000px;
+	min-width: 970px;
+	min-height: 55px;
+	margin: auto;
+	padding-left: 20px;
+}
+
+.sm {
+	position: relative;
+	z-index: 1;
+}
+
+.lk-cad {
+	padding-top: 24px;
+	margin: -.625em 0 10px;
+	float: right;
+}
+
+.lk-cad a {
+	color:#21759b!important;
+}
+
+.lk-cad a:hover {
+	color:#d54e21!important;
+}
+
+.icon-user {
+	margin: 0 6px;
+	display: inline-block;
+	width: 23px;
+	height: 14px;
+	background: url(../imagens/icon-user.png) no-repeat padding-box;
+}
+
+.icon-key {
+	margin: 0 6px;
+	display: inline-block;
+	width: 14px;
+	height: 8px;
+	background: url(../imagens/icon-key.png) no-repeat padding-box;
+}
+
+#logo{
+	display: inline;
+	position: relative;
+	float: left;
+	width: 100px;
+	height: 29px;
+	margin: 13px 80px 0 0;
+	white-space: nowrap;
+	line-height: 1;
+}
+
+#nav {
+	margin:0 0 0 8px;
+	padding:16px;
+}
+body form .input {
+	font-size:24px;
+	width:97%;
+	padding:3px;
+	margin-top:2px;
+	margin-right:6px;
+	margin-bottom:16px;
+	border:1px solid #e5e5e5;
+	background:#fbfbfb;
+	font-family: 'Open Sans',Arial,Helvetica,sans-serif;
+}
+input {
+	color:#555;
+}
+.clear {
+	clear:both;
+}
+#pass-strength-result {
+	font-weight:bold;
+	border-style:solid;
+	border-width:1px;
+	margin:12px 0 6px;
+	padding:6px 5px;
+	text-align:center;
+}
+
+input.button-primary, button.button-primary, a.button-primary {
+	border-color:#298cba;
+	font-weight:bold;
+	color:#fff;
+	background:#21759B;
+	text-shadow:rgba(0, 0, 0, 0.3) 0 -1px 0;
+}
+
+#div-login #nav a {
+	color:#21759b!important;
+}
+
+#div-login #nav a:hover {
+	color:#d54e21!important;
+}
+
+#div-login p{
+	margin-left: 10px;
+	margin-bottom: 15px;
+}
+
+#div-login .cadform p{
+	margin: 0px;
+}
+
+.cadastro #nav a {
+	color:#21759b!important;
+}
+.cadastro #nav a:hover {
+	color:#d54e21!important;
+}
+
+.cadastro p{
+	margin-left: 10px;
+	margin-bottom: 15px;
+}
+
+.cadastro .loginform p{
+	margin: 0px;
+}
+
+.cadastro .select-estado{
+	width: 99%;
+	font-size: 24px;
+	color: #555;
+}
+
+.cadastro .select-cidade{
+	width: 99%;
+	font-size: 24px;
+	color: #555;
+}
+
+
+.header {
+	position: fixed;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 53px;
+	border-bottom: 2px solid #E44D2E;
+	background-color: rgba(255,255,255,.9);
+}
+
+/*### Imagens em thumbnail no Cabeçalho ###*/
+
+.thumbnail{
+	width: 100%;
+	margin: 0;
+	text-align: center;
+	background: #ebeef1;
+	margin-top: 25px;
+	border-bottom: 2px solid #E44D2E;
+	padding-top: 2px;			
+}
+
+/*-- ESTILO Internet Explorer --*/
+:root .thumbnail {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    background: #ebeef1;
+    margin-top: 24px;
+    border-bottom: 2px solid #E44D2E;
+    padding-top: 2px;
+    height: 76px;
+    display: inline-flex;
+}
+
+.thumbnail .grey {
+	background: #ebeef1;
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-top: 66px;
+}
+
+.thumbnail .blue {
+	background: #95daea;
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-top: 66px;
+}
+
+.thumbnail .orange {
+	background: #ffbe7f;
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-top: 66px;
+}
+
+.thumbnail a{
+	opacity: 0.4;
+	height: 85px;
+}
+
+.thumbnail a:hover{
+	opacity: 1;
+	height: 85px;
+}
+
+/*### FIM -- magens em thumbnail no Cabeçalho ###*/

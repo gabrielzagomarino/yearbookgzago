@@ -1,0 +1,267 @@
+@charset "utf-8";
+
+body {
+	margin: 0 auto;
+	background: url("../imagens/bg-body.png") repeat 0 0;
+    font: 14px/1.55 'Open Sans',Arial,Helvetica,sans-serif;
+    color: #2f2f2f;
+    text-align: center;    
+}
+
+a {
+	text-decoration: none;
+	color: #2f2f2f;    
+}
+
+.header-user h2{
+	font-family: 'Special Elite', cursive;
+    height: 40px;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;	
+}
+
+.header-user {
+	position: fixed;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-height: 65px;
+	border-bottom: 2px solid #E44D2E;
+	background-color: rgba(255,255,255,.9);
+	font:11px "Lucida Grande", Verdana, Arial, "Bitstream Vera Sans", sans-serif;
+}
+
+
+.h-user{
+	position: relative;
+	min-height: 65px;
+	margin: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 5px;
+}
+
+.pesq-user{
+	display: inline;
+	position: relative;
+	float: left;
+	width: 250px;
+	height: 50px;
+	margin: -2px 80px 0 0;
+	white-space: nowrap;
+	line-height: 1;
+}
+
+div.pesq-user span {
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 23px;    
+}
+
+button.btn-busca {
+	background:url(../imagens/btn-busca.png) no-repeat 0 0;
+	width:32px;
+	height:32px;
+	border:none;
+	cursor:pointer;
+}
+
+body form .input {
+	font-size: 14px;
+	width:97%;
+	padding:3px;
+	margin-top:2px;
+	margin-right:6px;
+	margin-bottom:16px;
+	border:1px solid #e5e5e5;
+	background:#fbfbfb;
+	font-family: 'Open Sans',Arial,Helvetica,sans-serif;
+}
+
+input {
+	color:#555;
+}
+
+#logo{
+	display: inline;
+	position: relative;
+	float: left;
+	width: 100px;
+	height: 29px;
+	margin: 13px 80px 0 0;
+	white-space: nowrap;
+	line-height: 1;
+}
+
+#lk-home {
+	color:#21759b !important;
+}
+
+#lk-home a {
+	color:#21759b !important;
+	margin-top: -20px;
+}
+
+#lk-home a:hover {
+	color:#d54e21 !important;
+	margin-top: -20px;
+}
+
+.icon-home {
+	margin: 5px 6px;
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background: url(../imagens/icon-home.png) no-repeat padding-box;
+}
+
+.icon-perfil {
+	margin: 5px 6px;
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background: url(../imagens/icon-perfil.png) no-repeat padding-box;
+}
+
+.icon-logout {
+	margin: 5px 6px;
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background: url(../imagens/icon-logout.png) no-repeat padding-box;
+}
+
+header {
+	margin: 0 auto;
+	width: 100%;
+	min-height: 250px;
+	text-align: center;
+}
+
+header h1 {
+	font-family: 'Special Elite', cursive;
+    height: 80px;
+    font-size: 56px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+div.box-intro {
+	text-align: center;
+    border-top: 2px solid #888888;
+	line-height: 15px;
+    padding-top: 32px;	
+}
+
+div.box-intro span {
+    border-top: 2px solid #E44D2E;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 23px;    
+}
+
+section {
+	margin: 0 auto;
+	width: 100%;
+    background: white;
+	text-align: left;
+}
+
+section ul {
+	padding: 0;
+	margin: 0 20px;
+	text-align: center;
+}
+
+section ul li {
+    width: 330px;
+	display: inline-block;
+	list-style-type: none;
+}
+
+figure {
+	background-color: white;
+	border: 1px solid #EEEEEE;
+    box-shadow: 0 0 7px #E1E1E1 inset;   
+	padding: 30px 30px;
+	margin: 20px 15px;     
+}
+
+figure:hover {
+    background: #EDEDED;
+    -webkit-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -khtml-border-radius: 10%;
+    -ms-border-radius: 10%;
+    border-radius: 10%;    
+}
+
+figcaption {
+	padding: 10px 0;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+}
+	
+figcaption:hover {
+	color: #EB4040;    
+}
+
+footer {
+    margin: 0 auto;
+    width: 100%;
+    background: #DDDDDD;
+}
+
+footer .container {
+    text-align: right;
+    width: 100%;
+    line-height: 10px;
+}
+
+footer .container p{
+    margin: 0;    
+    padding: 15px 0;
+}
+
+footer small {
+    font-size: 12px;
+    padding-right: 10px;
+}
+
+footer .container a {
+	font-weight: bold;
+}
+
+footer .container a:hover {
+	text-decoration: underline;
+}
+
+.edit-select-estado {
+	width: 55.5%;
+	font-size: 16px;
+	color: #555;
+}
+
+.edit-select-cidade {
+	width: 48%;
+	font-size: 16px;
+	color: #555;
+}
+
+.edit-desc {
+	width: 97%;
+}
+
+.edit-select-cidade-dis{
+	color: #c9c9c9;
+	width: 48%;
+	font-size: 16px;
+	border-color:#e5e5e5; 	
+}
