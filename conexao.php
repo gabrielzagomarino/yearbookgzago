@@ -3,7 +3,7 @@
 	 
   $servidor = 'us-cdbr-azure-northcentral-a.cleardb.com';
   $porta = 3306;
-  $banco = "daw_yearbook";
+  $banco = "yearbookgzagodb";
   $usuario = "b759630275613b";
   $senha = "217eed5b";
   $charset = "utf8";  
