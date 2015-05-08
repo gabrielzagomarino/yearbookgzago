@@ -11,7 +11,7 @@
 	{			
    
 		// cria instrução SQL parametrizada
-		$sql = "SELECT idCidade, idEstado, nomeCidade FROM cidades WHERE idEstado = $codigo";
+		$sql = "SELECT idCidade, idEstado, nomeCidade FROM cidades WHERE idEstado = $codigo order by nomeCidade";
 					  
 		//prepara a execução
 		$operacao = $conexao->prepare($sql);							  			  

@@ -115,14 +115,12 @@
 					mkdir($caminhoUpload, 0700);  //permissoes de escrita, leitura e execucao
 					
 			  
-			  //colhendo tamanho do título da foto, caso for grande, retorna mensagem de erro
-			  $tam_tit_foto = strlen($_FILES["foto"]["name"]);			  
-			  if($tam_tit_foto>10){
-				include('erroArqTitBig.php');
-				die();			  
-			  }
+			  //renomeando o nome do arquivo de imagem para um nome padrão
+			  $nmImgPerfil  = "perf.".$extensao;
 			  
-			  $pathCompleto = $caminhoUpload.basename($_FILES["foto"]["name"]);
+			  //setando o caminho completo para armazenar a imagem
+			  $pathCompleto = $caminhoUpload.$nmImgPerfil;
+			  
 			  if(move_uploaded_file($_FILES["foto"]["tmp_name"], $pathCompleto))
                 //variável vai receber o caminho aonde a foto foi armazenada no diretório			  
 				//preg_replace = retirar acentuação 
