@@ -10,5 +10,5 @@ seu nome, e-mail, login, senha, estado, cidade, uma brévia descrição e seleci
 foto que será sua foto de perfil. Após o cadastro o usuário estará liberado para se 
 autenticar (logar) na rede social, visualizando todas as pessoas cadastradas na rede. 
 O usuário ainda pode editar seu perfil por completo, visitar os perfis de qualquer 
-usuário da rede, pesquisar um determinado usuário na rede e ainda encerrar sua conta.
+usuário da rede, pesquisar um determinado usuário e ainda encerrar sua conta.
 ###------------------------------------------------------------------------------------------
