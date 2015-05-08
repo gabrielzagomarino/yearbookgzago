@@ -1,7 +1,7 @@
 # yearbookgzago
 Atividade 05 - Desenvolvimento de Aplicações Web na Nuvem (PUC-MG)
 
-###------------------------------------------------------------------------------------------$$$
+###------------------------------------------------------------------------------------------
 Web Site desenvolvido por Gabriel Zago Marino, Analista de Sistemas e atualmente 
 estudante do curso de Desenvolvimento de Aplicações Web pela PUC de Minas Gerais.
 
@@ -12,4 +12,4 @@ autenticar (logar) na rede social, visualizando todas as pessoas cadastradas na 
 toda. O usuário ainda pode editar seu perfil por completo, visitar os perfis de 
 qualquer usuário da rede, pesquisar um determinado usuário na rede e ainda encerrar 
 sua conta.
-###------------------------------------------------------------------------------------------$$$
+###------------------------------------------------------------------------------------------
